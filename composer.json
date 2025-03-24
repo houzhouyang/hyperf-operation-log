@@ -1,5 +1,5 @@
 {
-    "name": "hyperf/operation-log",
+    "name": "houzhouyang/hyperf-operation-log",
     "type": "library",
     "description": "Hyperf operation log component",
     "keywords": [
