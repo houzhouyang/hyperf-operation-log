@@ -78,17 +78,13 @@ class ConfigProvider
                     'id' => 'config',
                     'description' => '发布操作日志组件配置文件',
                     'source' => __DIR__ . '/../publish/operation_log.php',
-                    'destination' => function ($basePath) {
-                        return $basePath . '/config/autoload/operation_log.php';
-                    },
+                    'destination' => BASE_PATH . '/config/autoload/operation_log.php',
                 ],
                 [
                     'id' => 'migrations',
                     'description' => '发布操作日志组件数据库迁移文件',
                     'source' => __DIR__ . '/../migrations/create_operation_logs_table.php',
-                    'destination' => function ($basePath) {
-                        return $basePath . '/migrations/2023_01_01_000001_create_operation_logs_table.php';
-                    },
+                    'destination' => BASE_PATH . '/migrations/2023_01_01_000001_create_operation_logs_table.php',
                 ],
             ],
             // 亦可继续定义其它配置，最终都会合并到与 ConfigInterface 对应的配置储存库中
