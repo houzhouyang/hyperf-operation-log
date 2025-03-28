@@ -13,7 +13,6 @@
     "license": "Apache-2.0",
     "require": {
         "php": ">=8.0",
-        "hyperf/annotation": "^2.2 || ^3.0",
         "hyperf/config": "^2.2 || ^3.0",
         "hyperf/contract": "^2.2 || ^3.0",
         "hyperf/database": "^2.2 || ^3.0",
@@ -21,7 +20,7 @@
         "hyperf/event": "^2.2 || ^3.0",
         "hyperf/http-server": "^2.2 || ^3.0",
         "hyperf/logger": "^2.2 || ^3.0",
-        "hyperf/queue": "^2.2 || ^3.0",
+        "hyperf/async-queue": "^2.2 || ^3.0",
         "hyperf/redis": "^2.2 || ^3.0"
     },
     "require-dev": {
